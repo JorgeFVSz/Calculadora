@@ -42,6 +42,13 @@ public class Main {
             case 5:
                 System.out.println("Resultado de " + num1 + "%" + num2 + " = " + (num1 % num2));
                 break;
+            default:
+                System.out.println("Operação inválida, escolha entre as opções de 1 a 5 para as operações correspondentes\n" +
+                        " 1 para Adição\n" +
+                        "2 para Subtração \n" +
+                        "3 para Multiplicação\n" +
+                        "4 para Divisão\n" +
+                        "5 para Resto da divisão (Módulo).");
         }
 
         scanner.close();
