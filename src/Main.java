@@ -33,6 +33,10 @@ public class Main {
                 System.out.println("Resultado de " + num1 + "x" + num2 + " = " + (num1 * num2));
                 break;
             case 4:
+                if (num2 == 0) {
+                    System.out.println("Operação inválida: Erro ao dividir por 0.");
+                    break;
+                }
                 System.out.println("Resultado de " + num1 + "/" + num2 + " = " + (num1 / num2));
                 break;
             case 5:
