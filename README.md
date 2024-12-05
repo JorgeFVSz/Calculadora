@@ -15,7 +15,7 @@ Este projeto é uma calculadora simples desenvolvida em Java que permite realiza
 1. Clone este repositório para o seu computador:
 
    ```bash
-   git clone https://github.com/seu-usuario/calculadora-simples.git
+   git clone https://github.com/JorgeFVSz/calculadora-simples.git
 
 2. Compile e execute o programa com um IDE como IntelliJ IDEA, Eclipse ou pela linha de comando com javac e java.
 
